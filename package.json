@@ -1,0 +1,23 @@
+{
+  "name": "xflix-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=8082 nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "d": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status": "^1.6.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  },
+  "description": ""
+}
